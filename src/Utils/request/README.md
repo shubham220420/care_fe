@@ -146,7 +146,7 @@ function CreatePrescription({ consultationId }: { consultationId: string }) {
       pathParams: { consultationId },
     }),
     onSuccess: () => {
-      toast.success("Prescription created successfully");
+      toast.success(t("prescription_created_successfully"));
     },
   });
 
